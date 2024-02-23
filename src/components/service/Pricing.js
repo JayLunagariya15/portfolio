@@ -40,7 +40,7 @@ const Pricing = () => {
                   </li>
                 </ul>
                 <div className="tokyo_tm_button" data-position="left">
-                  <a href="#">
+                  <a href="https://wa.me/919723742715" target="_blank" rel="noopener noreferrer">
                     <span>Purchase</span>
                   </a>
                 </div>
@@ -79,7 +79,7 @@ const Pricing = () => {
                   </li>
                 </ul>
                 <div className="tokyo_tm_button" data-position="left">
-                  <a href="#">
+                  <a href="https://wa.me/919723742715" target="_blank" rel="noopener noreferrer">
                     <span>Purchase</span>
                   </a>
                 </div>
@@ -117,7 +117,7 @@ const Pricing = () => {
                   </li>
                 </ul>
                 <div className="tokyo_tm_button" data-position="left">
-                  <a  href="https://api.whatsapp.com/send?phone=+919723742715" target="_blank" rel="noopener noreferrer">
+                  <a  href="https://wa.me/919723742715" target="_blank" rel="noopener noreferrer">
                     <span>Purchase</span>
                   </a>
                 </div>

@@ -32,7 +32,16 @@ const Sidebar = () => {
         </div>
 
         {/* put below code here with <div> */}
-
+        <div className="copyright w-full float-left">
+          <p className="text-[15px] text-[#999] font-montserrat leading-[25px]">
+            © {new Date().getFullYear()} Jay Lunagariya
+            <br />
+            {/* Created by{" "}
+            <a className="text-[#787878] font-medium transition-all duration-300 hover:text-black" href="https://themeforest.net/user/Codeefly" target="_blank">
+              Codeefly
+            </a> */}
+          </p>
+        </div>
       </div>
     </div>
   );
@@ -42,14 +51,4 @@ export default Sidebar;
 
 
 
-{/* <div className="copyright w-full float-left">
-  <p className="text-[15px] text-[#999] font-montserrat leading-[25px]">
-    © {new Date().getFullYear()} Jay Lunagariya
-    <br />
 
-  </p>
-</div> */}
-{/* Created by{" "}
-            <a className="text-[#787878] font-medium transition-all duration-300 hover:text-black" href="https://themeforest.net/user/Codeefly" target="_blank">
-              Codeefly
-            </a> */}
