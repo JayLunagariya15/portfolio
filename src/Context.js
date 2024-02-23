@@ -9,6 +9,7 @@ const type = {
   ANIMATION: "ANIMATION",
   MODAL: "MODAL",
   SERVICEMODAL: "SERVICEMODAL",
+  PRICEMODAL: "PRICEMODAL",
   NEWSMODAL: "NEWSMODAL",
   PORTFOLIODETAILSMODAL: "PORTFOLIODETAILSMODAL",
 };
@@ -17,6 +18,7 @@ const {
   ANIMATION,
   MODAL,
   SERVICEMODAL,
+  PRICEMODAL,
   NEWSMODAL,
   PORTFOLIODETAILSMODAL,
 } = type;
@@ -27,6 +29,7 @@ const initialState = {
   animation: "fadeInLeft",
   modal: false,
   serviceModal: null,
+  priceModal: null,
   newsModal: null,
   portfolioDetailsModal: null,
   menus: [
@@ -35,6 +38,7 @@ const initialState = {
     { id: 3, name: "service", href: "service" },
     // { id: 4, name: "portfolio", href: "portfolio" },
     // { id: 5, name: "news", href: "news" },
+    { id: 7, name: "pricing", href: "pricing" },
     { id: 6, name: "contact", href: "contact" },
   ],
 };
@@ -63,16 +67,21 @@ const reducer = (state, action) => {
         ...state,
         serviceModal: payload,
       };
+    case PRICEMODAL:
+      return {
+        ...state,
+        priceModal: payload,
+      };
     // case NEWSMODAL:
     //   return {
     //     ...state,
     //     newsModal: payload,
     //   };
-      // case PORTFOLIODETAILSMODAL:
-      //   return {
-      //     ...state,
-      //     portfolioDetailsModal: payload,
-      //   };
+    // case PORTFOLIODETAILSMODAL:
+    //   return {
+    //     ...state,
+    //     portfolioDetailsModal: payload,
+    //   };
     default:
       return state;
   }
@@ -109,6 +118,12 @@ const TokyoState = ({ children }) => {
       payload: value,
     });
   }, []);
+  const setPriceModal = useCallback((value) => {
+    dispatch({
+      type: PRICEMODAL,
+      payload: value,
+    })
+  })
   const setNewsModal = useCallback((value) => {
     dispatch({
       type: NEWSMODAL,
@@ -127,6 +142,7 @@ const TokyoState = ({ children }) => {
     animation,
     modal,
     serviceModal,
+    priceModal,
     newsModal,
     portfolioDetailsModal,
     menus,
@@ -143,6 +159,8 @@ const TokyoState = ({ children }) => {
         modalToggle,
         serviceModal,
         setServiceModal,
+        priceModal,
+        setPriceModal,
         newsModal,
         setNewsModal,
         portfolioDetailsModal,
