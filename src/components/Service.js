@@ -2,7 +2,7 @@ import SectionContainer from "./SectionContainer";
 import SectionTitle from "./SectionTitle";
 // import FunFact from "./service/FunFact";
 // import Partners from "./service/Partners";
-import Pricing from "./service/Pricing";
+// import Pricing from "./service/Pricing";
 import ServiceItems from "./service/ServiceItems";
 
 const Service = () => {
@@ -20,7 +20,7 @@ const Service = () => {
       </div>
       {/* <Partners /> */}
       {/* <FunFact /> */}
-      <Pricing />
+      {/* <Pricing /> */}
     </SectionContainer>
   );
 };

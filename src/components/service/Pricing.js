@@ -75,7 +75,7 @@ const Pricing = () => {
                     <p>&#8226; Custom Theme Development</p>
                   </li>
                   <li className="active">
-                    <p>&#8226; E-commerce Setup with WooCommerce (up to 10 products)</p>
+                    <p>&#8226; E-commerce Setup (up to 10 products)</p>
                   </li>
                 </ul>
                 <div className="tokyo_tm_button" data-position="left">

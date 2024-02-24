@@ -4,7 +4,7 @@ import Contact from "components/Contact";
 import Home from "components/Home";
 import News from "components/News";
 import Service from "components/Service";
-import Pricing from "components/Pricing";
+// import Pricing from "components/Pricing";
 import dynamic from "next/dynamic";
 const Portfolio = dynamic(() => import("components/Portfolio"), {
   ssr: false,
@@ -21,7 +21,9 @@ const Index = () => {
       {/* SERVICE */}
       <Service />
       {/* /SERVICE */}
-      <Pricing />
+      {/* PRICING */}
+      {/* <Pricing /> */}
+      {/* /PRICING */}
       <div className="tokyo_tm_portfolio_titles" />
       {/* PORTFOLIO */}
       {/* <Portfolio /> */}

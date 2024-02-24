@@ -7,6 +7,7 @@ import { tokyo } from "@/src/utils";
 import ImageView from "components/popup/ImageView";
 import MediaPopup from "components/popup/MediaPopup";
 import NewsModal from "components/popup/NewsModal";
+import PriceModal from "components/popup/PriceModal";
 import ServiceModal from "components/popup/ServiceModal";
 import dynamic from "next/dynamic";
 import { Fragment, useContext, useEffect } from "react";
@@ -19,13 +20,14 @@ const Layout = ({ children }) => {
     tokyo.imageToSvg();
     tokyo.customCursor();
   }, []);
-  const { modal, serviceModal, newsModal, portfolioDetailsModal } =
+  const { modal, serviceModal, newsModal, priceModal,portfolioDetailsModal } =
     useContext(TokyoContext);
   return (
     <Fragment>
       <MediaPopup />
       <ImageView />
       {modal && serviceModal && <ServiceModal />}
+      {modal && priceModal && <PriceModal />}
       {modal && newsModal && <NewsModal />}
       {modal && portfolioDetailsModal && <DetailsModal />}
       {/* WRAPPER ALL */}

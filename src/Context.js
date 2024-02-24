@@ -2,6 +2,7 @@ import { createContext, useCallback, useReducer } from "react";
 
 // Create Context
 const TokyoContext = createContext();
+// const { PRICEMODAL } = type;
 
 // Type
 const type = {
@@ -32,6 +33,8 @@ const initialState = {
   priceModal: null,
   newsModal: null,
   portfolioDetailsModal: null,
+
+  //menus
   menus: [
     { id: 1, name: "Home", href: "home" },
     { id: 2, name: "about", href: "about" },
@@ -42,7 +45,6 @@ const initialState = {
     { id: 6, name: "contact", href: "contact" },
   ],
 };
-
 // Reducer
 const reducer = (state, action) => {
   const { type, payload } = action;
