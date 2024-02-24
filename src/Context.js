@@ -37,12 +37,12 @@ const initialState = {
   //menus
   menus: [
     { id: 1, name: "Home", href: "home" },
-    { id: 2, name: "about", href: "about" },
-    { id: 3, name: "service", href: "service" },
+    { id: 2, name: "About", href: "about" },
+    { id: 3, name: "Service", href: "service" },
     // { id: 4, name: "portfolio", href: "portfolio" },
     // { id: 5, name: "news", href: "news" },
-    { id: 7, name: "pricing", href: "pricing" },
-    { id: 6, name: "contact", href: "contact" },
+    // { id: 7, name: "Pricing", href: "pricing" },
+    { id: 6, name: "Contact", href: "contact" },
   ],
 };
 // Reducer

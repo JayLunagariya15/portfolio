@@ -9,8 +9,8 @@ const Sidebar = () => {
         <div className="logo" data-type="image">
           {" "}
           {/* You can use image or text as logo. data-type values are: "image" and "text" */}
-          <a href="#">
-            <text className="font-poppins font-black text-[31px] tracking-[5px]">Jay Lunagariya</text>
+          <a href="#home">
+            <text className="font-poppins font-black text-[31px] tracking-[5px] ">Jay Lunagariya</text>
             {/* <img className="max-w-[150px]" src="assets/img/personal/logo_b.png" alt="assets/img/logo/dark.png" /> */}
             {/* <h3 className="font-poppins font-black text-[31px] tracking-[5px]">TOKYO</h3> */}
           </a>

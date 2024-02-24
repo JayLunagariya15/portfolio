@@ -1,19 +1,7 @@
-import { TokyoContext } from "@/src/Context";
-import { useContext } from "react";
-
 const Pricing = () => {
-  const { setPriceModal } = useContext(TokyoContext);
 
-  const openPriceModal = (planDetails) => {
-    // Set the priceModal to the details of the selected plan
-    setPriceModal({
-      title: planDetails.title,
-      description: planDetails.description,
-      // Add more properties as needed
-    });
-  };
   return (
-    <div className="tokyo_tm_pricing w-full h-auto clear-both float-left px-[0px] pt-[100px] pb-[60px] bg-white"  onClick={() => openPriceModal({ title: "Basic", description: "Basic Plan Description" })}>
+    <div className="tokyo_tm_pricing w-full h-auto clear-both float-left px-[0px] pt-[100px] pb-[60px] bg-white"  >
       <div className="container">
         <div className="tokyo_section_title w-full h-auto clear-both float-left mb-[40px]">
           <h3 className="text-[20px] font-bold">Pricing</h3>
