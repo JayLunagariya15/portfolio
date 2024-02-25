@@ -1,13 +1,25 @@
 import { TokyoContext } from "@/src/Context";
 import { useContext } from "react";
 import ModalContainer from "./ModalContainer";
+
 const ServiceModal = () => {
   const { serviceModal, setServiceModal } = useContext(TokyoContext);
   return (
     <ModalContainer nullValue={setServiceModal}>
       <div className="service_popup_informations w-full h-auto clear-both float-left">
         <div className="image">
-          <img src="assets/img/thumbs/4-2.jpg" alt="" />
+          {/* <img src="assets/img/thumbs/4-2.jpg" alt="" />: */}
+          {serviceModal.video ? (
+            <video
+              src={serviceModal.video}
+              alt=""
+              autoPlay
+              loop
+              muted
+            />
+          ) : (
+            <img src={serviceModal.image} alt="" />
+          )}
           <div
             className="main"
             data-img-url={serviceModal.image}
@@ -28,7 +40,7 @@ const ServiceModal = () => {
           ))}
         </div>
       </div>
-    </ModalContainer>
+    </ModalContainer >
   );
 };
 export default ServiceModal;

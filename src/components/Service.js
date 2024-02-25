@@ -3,6 +3,7 @@ import SectionTitle from "./SectionTitle";
 // import FunFact from "./service/FunFact";
 // import Partners from "./service/Partners";
 import Pricing from "./service/Pricing";
+import Ecommerce from "./service/Ecommerce";
 import ServiceItems from "./service/ServiceItems";
 
 const Service = () => {
@@ -21,6 +22,7 @@ const Service = () => {
       {/* <Partners /> */}
       {/* <FunFact /> */}
       <Pricing />
+      <Ecommerce />
     </SectionContainer>
   );
 };

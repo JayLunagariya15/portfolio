@@ -3,8 +3,42 @@ const Pricing = () => {
 
     <div className="tokyo_tm_pricing w-full h-auto clear-both float-left px-[0px] pt-[100px] pb-[60px] bg-white">
       <div className="container">
-        <div className="tokyo_section_title w-full h-auto clear-both float-left mb-[40px]">
+        {/* <div className="tokyo_section_title w-full h-auto clear-both float-left mb-[40px]">
           <h3 className="text-[20px] font-bold">Pricing</h3>
+        </div> */}
+        <div className="tokyo_section_title w-full h-auto clear-both float-left mb-[40px] text-center relative">
+          <h3
+            className="text-[20px] font-bold relative z-10"
+            style={{ position: 'relative', zIndex: '10' }}
+          >
+            <span
+              style={{
+                content: '""',
+                display: 'inline-block',
+                width: '310px',
+                height: '2px',
+                backgroundColor: '#000',
+                position: 'absolute',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                left: '0',
+              }}
+            ></span>
+            WordPress Development
+            <span
+              style={{
+                content: '""',
+                display: 'inline-block',
+                width: '310px',
+                height: '2px',
+                backgroundColor: '#000',
+                position: 'absolute',
+                top: '50%',
+                transform: 'translateY(-50%)',
+                right: '0',
+              }}
+            ></span>
+          </h3>
         </div>
         <div className="list w-full h-auto clear-both float-left">
           <ul className="ml-[-40px]">
