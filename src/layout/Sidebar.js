@@ -21,7 +21,7 @@ const Sidebar = () => {
               <li className={`m-0 w-full float-left ${menu.href == nav ? "active" : ""}`} key={menu.id}>
                 <a
                   className="text-[#767676] capitalize inline-block font-medium font-montserrat transition-all duration-300 hover:text-black"
-                  href={`#${menu.href}`}
+                  href={`# ${menu.href}`}
                   onClick={() => navChange(menu.href)}
                 >
                   {menu.name}

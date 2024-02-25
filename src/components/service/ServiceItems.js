@@ -4,13 +4,14 @@ import { useContext } from "react";
 const services = [
   {
     id: 1,
-    name: "Web Designing Services",
+    name: "Web Development Services",
     text: [
-      "Welcome to my web design services, where I blend innovation with functionality to create impactful digital experiences. As a skilled MERN stack developer, my expertise encompasses MongoDB, Express.js, React.js, and Node.js, ensuring the development of robust and responsive web applications. This cutting-edge technology stack allows me to build dynamic sites that offer seamless user interactions.",
+      "Welcome to my Web Development Services! I Embrace the perfect fusion of innovation and functionality as I craft compelling digital experiences. As a proficient MERN stack developer, my expertise lies in MongoDB, Express.js, React.js, and Node.js – the pillars of modern web development. My skills ensure the creation of robust and responsive web applications that redefine user interactions. Harness the power of cutting-edge technology with me and let your digital presence thrive!",
       // "In content management, I bring expertise to WordPress development, tailoring websites for personal blogs, business sites, or e-commerce. Committed to delivering user-friendly and visually compelling online presence, my proficiency ensures a dynamic and customized approach. Let's collaborate for a digital space that resonates and achieves your online objectives.",
       // "That’s why more companies are not only reevaluating their website’s design but also partnering with Kryptic Hash, the web design agency that’s driven more than $2.4 billion in revenue for its clients. With over 50 web design awards under our belt, we're confident we can design a custom website that drives sales for your unique business.",
     ],
-    image: "assets/img/news/1.jpg",
+    // image: "assets/img/news/1.jpg",
+    video: "assets/img/news/web.mp4",
   },
   {
     id: 2,
@@ -97,6 +98,7 @@ const ServiceItems = () => {
               />
               {/* Service Popup Start */}
               <img className="popup_service_image opacity-0 invisible hidden absolute z-[-111]" src={service.image} alt="image" />
+              <img className="popup_service_cideo opacity-0 invisible hidden absolute z-[-111]" src={service.video} alt="video" />
             </div>
           </li>
         ))}
@@ -105,3 +107,4 @@ const ServiceItems = () => {
   );
 };
 export default ServiceItems;
+
