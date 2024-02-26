@@ -4,6 +4,7 @@ import SectionTitle from "./SectionTitle";
 // import Partners from "./service/Partners";
 import Pricing from "./service/Pricing";
 import Ecommerce from "./service/Ecommerce";
+import Graphics from './service/Graphics';
 import ServiceItems from "./service/ServiceItems";
 
 const Service = () => {
@@ -21,8 +22,9 @@ const Service = () => {
       </div>
       {/* <Partners /> */}
       {/* <FunFact /> */}
-      <Pricing />
       <Ecommerce />
+      <Graphics />
+      <Pricing />
     </SectionContainer>
   );
 };
