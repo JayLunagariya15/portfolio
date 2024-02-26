@@ -15,7 +15,7 @@ const Ecommerce = () => {
               style={{
                 content: '""',
                 display: 'inline-block',
-                width: '310px',
+                width: '300px',
                 height: '2px',
                 backgroundColor: '#000',
                 position: 'absolute',
@@ -29,7 +29,7 @@ const Ecommerce = () => {
               style={{
                 content: '""',
                 display: 'inline-block',
-                width: '310px',
+                width: '300px',
                 height: '2px',
                 backgroundColor: '#000',
                 position: 'absolute',
