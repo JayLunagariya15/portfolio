@@ -30,7 +30,7 @@ const Home = () => {
             <div className="avatar min-w-[300px] min-h-[300px] relative rounded-full" data-type="wave">
               {" "}
               {/* data-type values are: "wave", "circle", "square"*/}
-              <div className="image absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="assets/img/personal/jay.jpg" />
+              <div className="image absolute inset-0 bg-no-repeat bg-center bg-cover" data-img-url="assets/img/personal/picss.jpg" />
             </div>
             <div className="details ml-[80px]">
               <h3 className="name text-[55px] font-extrabold uppercase mb-[14px]">

@@ -1,3 +1,4 @@
+// import Head from 'next/head';
 import { TokyoContext } from "@/src/Context";
 import DetailsModal from "@/src/components/popup/DetailsModal";
 import Cursor from "@/src/layout/Cursor";
@@ -24,6 +25,12 @@ const Layout = ({ children }) => {
     useContext(TokyoContext);
   return (
     <Fragment>
+      {/* <Head>
+        <link rel="icon" href="/favicon.ico" />
+        Use the following line if your favicon is not in the public directory
+        <link rel="icon" href="/assets/img/fav/favicon.png" />
+      </Head> */}
+
       <MediaPopup />
       <ImageView />
       {modal && serviceModal && <ServiceModal />}
