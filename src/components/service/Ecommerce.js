@@ -60,7 +60,7 @@ const Ecommerce = () => {
                 <ul className="item list-none">
                   <li className="active">
                     <span className="bullet"></span>
-                    <p>&#8226; Up to 5-7 Pages, including Home, About, Services, Contact, Blog</p>
+                    <p>&#8226; Up to 5 Pages (Ex. Home, About, Services, Contact, Blog)</p>
                   </li>
                   <li className="active">
                     <p>&#8226; Up to 20-25 Products</p>
