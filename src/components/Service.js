@@ -23,8 +23,8 @@ const Service = () => {
       {/* <Partners /> */}
       {/* <FunFact /> */}
       <Ecommerce />
-      <Graphics />
       <Pricing />
+      <Graphics />
     </SectionContainer>
   );
 };
