@@ -26,7 +26,7 @@ const Home = () => {
     <SectionContainer name={"home"}>
       <div className="container">
         <div className="tokyo_tm_home w-full min-h-[100vh] clear-both flex items-center justify-center relative">
-          <div className="home_conte  nt flex items-center">
+          <div className="home_content flex items-center">
             <div className="avatar min-w-[300px] min-h-[300px] relative rounded-full" data-type="wave">
               {" "}
               {/* data-type values are: "wave", "circle", "square"*/}
@@ -34,7 +34,7 @@ const Home = () => {
             </div>
             <div className="details ml-[80px]">
               <h3 className="name text-[55px] font-extrabold uppercase mb-[14px]">
-                Jay <span>Lunagariya</span>
+                Jay <span>Lunagariya</span> 
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
                 I am a skilled MERN stack developer with a passion for creating dynamic and responsive web applications. With expertise in MongoDB, Express.js, React.js, and Node.js, I offer comprehensive development services to bring your ideas to life.
