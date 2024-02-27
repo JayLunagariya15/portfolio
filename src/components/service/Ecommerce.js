@@ -11,33 +11,9 @@ const Ecommerce = () => {
             className="text-[20px] font-bold relative z-10"
             style={{ position: 'relative', zIndex: '10' }}
           >
-            <span
-              style={{
-                content: '""',
-                display: 'inline-block',
-                width: '300px',
-                height: '2px',
-                backgroundColor: '#000',
-                position: 'absolute',
-                top: '50%',
-                transform: 'translateY(-50%)',
-                left: '0',
-              }}
-            ></span>
+
             eCommerce Development
-            <span
-              style={{
-                content: '""',
-                display: 'inline-block',
-                width: '300px',
-                height: '2px',
-                backgroundColor: '#000',
-                position: 'absolute',
-                top: '50%',
-                transform: 'translateY(-50%)',
-                right: '0',
-              }}
-            ></span>
+
           </h3>
         </div>
 
