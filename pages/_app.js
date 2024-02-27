@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
     <TokyoState>
         <Head>
         {/* Add your favicon link tag here */}
-        <link rel="icon" href="/assets/img/fav/favicon.ico" />
+        <link rel="icon" href="/assets/img/fav/picture.ico" />
         {/* Other meta tags or links can be added here as well */}
       </Head>
       <PreLoader />

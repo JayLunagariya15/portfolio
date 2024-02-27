@@ -59,21 +59,34 @@ const Pricing = () => {
                 <ul className="item list-none">
                   <li className="active">
                     <span className="bullet"></span>
-                    <p> &#8226; Up to 5 Pages (Home, About, Services, Contact, Blog)</p>
+                    <p>&#8226; Up to 5-7 Pages (Home, About, Services, Contact, Blog, and more)</p>
                   </li>
                   <li className="active">
-                    <p>&#8226; Responsive Design with mobile optimization</p>
+                    <p>&#8226; Responsive Design with Mobile Optimization</p>
                   </li>
                   <li className="active">
-                    <p>&#8226; Photo gallery</p>
+                    <p>&#8226; Photo Gallery</p>
+                  </li>
+                  {/* <li className="active">
+                    <p>&#8226; Video Gallery</p>
                   </li>
                   <li className="active">
-                    <p>&#8226; Video gallery</p>
+                    <p>&#8226; Embed Photos, Videos, and Music in Your Pages</p>
                   </li>
                   <li className="active">
-                    <p>&#8226; Basic SEO Setup</p>
+                    <p>&#8226; Basic SEO Setup and Google Analytics</p>
+                  </li>
+                  <li className="active">
+                    <p>&#8226; Includes Web Hosting and a .com Domain Name for 1 Year</p>
+                  </li> */}
+                  <li className="active">
+                    <p>&#8226; Includes Email Accounts Setup</p>
+                  </li>
+                  <li className="active">
+                    <p>&#8226; Includes Training and Support via Email and Phone</p>
                   </li>
                 </ul>
+
                 <div className="tokyo_tm_button" data-position="left">
                   <a href="https://wa.me/919723742715" target="_blank" rel="noopener noreferrer">
                     <span>Purchase</span>
@@ -97,22 +110,35 @@ const Pricing = () => {
                 </div>
                 <ul className="item list-none">
                   <li className="active">
-                    <p>&#8226; Everything in the Basic Package</p>
-                  </li>
-                  <li className="active">
                     <span className="bullet"></span>
-                    <p> &#8226; Up To 7-12 Pages</p>
+                    <p>&#8226; Up to 7-15 Pages (Home, About, Services, Contact, Blog, and more)</p>
                   </li>
                   <li className="active">
-                    <p>&#8226; Social Media Integration</p>
+                    <p>&#8226; Responsive Design with Mobile Optimization</p>
                   </li>
                   <li className="active">
-                    <p>&#8226; Custom Theme Development</p>
+                    <p>&#8226; Photo Gallery</p>
                   </li>
                   <li className="active">
-                    <p>&#8226; E-commerce Setup (up to 10 products)</p>
+                    <p>&#8226; Video Gallery</p>
+                  </li>
+                  {/* <li className="active">
+                    <p>&#8226; Embed Photos, Videos, and Music in Your Pages</p>
+                  </li> */}
+                  <li className="active">
+                    <p>&#8226; Basic SEO Setup and Google Analytics</p>
+                  </li>
+                  <li className="active">
+                    <p>&#8226; Includes Web Hosting and a .com Domain Name for 1 Year</p>
+                  </li>
+                  <li className="active">
+                    <p>&#8226; Includes Email Accounts Setup</p>
+                  </li>
+                  <li className="active">
+                    <p>&#8226; Includes Training and Support via Email and Phone</p>
                   </li>
                 </ul>
+
                 <div className="tokyo_tm_button" data-position="left">
                   <a href="https://wa.me/919723742715" target="_blank" rel="noopener noreferrer">
                     <span>Purchase</span>
@@ -139,18 +165,35 @@ const Pricing = () => {
                 </div>
                 <ul className="item list-none">
                   <li className="active">
-                    <p>&#8226; Everything in the Standard Package</p>
+                    <span className="bullet"></span>
+                    <p>&#8226; Up to 15-30 Pages (Home, About, Services, Contact, Blog, and more)</p>
                   </li>
                   <li className="active">
-                    <p>&#8226; Advanced Custom Theme Development</p>
+                    <p>&#8226; Responsive Design with Mobile Optimization</p>
                   </li>
                   <li className="active">
-                    <p>&#8226; Blog Setup with Customized Layout</p>
+                    <p>&#8226; Photo Gallery</p>
                   </li>
                   <li className="active">
-                    <p>&#8226; Priority Support for 3 Months After Launch</p>
+                    <p>&#8226; Video Gallery</p>
+                  </li>
+                  <li className="active">
+                    <p>&#8226; Embed Photos, Videos, and Music in Your Pages</p>
+                  </li>
+                  <li className="active">
+                    <p>&#8226; Basic SEO Setup and Google Analytics</p>
+                  </li>
+                  <li className="active">
+                    <p>&#8226; Includes Web Hosting and a .com Domain Name for 1 Year</p>
+                  </li>
+                  <li className="active">
+                    <p>&#8226; Includes Email Accounts Setup</p>
+                  </li>
+                  <li className="active">
+                    <p>&#8226; Includes Training and Support via Email and Phone</p>
                   </li>
                 </ul>
+
                 <div className="tokyo_tm_button" data-position="left">
                   <a href="https://wa.me/919723742715" target="_blank" rel="noopener noreferrer">
                     <span>Purchase</span>

@@ -74,11 +74,14 @@ const Ecommerce = () => {
                   <li className="active">
                     <p>&#8226; Photo Gallery</p>
                   </li>
-                  <li className="active">
+                  {/* <li className="active">
                     <p>&#8226; Video Gallery</p>
                   </li>
                   <li className="active">
                     <p>&#8226; Embed Photos, Videos, and Music in Your Pages</p>
+                  </li> */}
+                  <li className="active">
+                    <p>&#8226; Includes Training and Support via Email and Phone</p>
                   </li>
                 </ul>
                 <div className="tokyo_tm_button" data-position="left">
@@ -122,11 +125,14 @@ const Ecommerce = () => {
                   <li className="active">
                     <p>&#8226; Video Gallery</p>
                   </li>
-                  <li className="active">
+                  {/* <li className="active">
                     <p>&#8226; Embed Photos, Videos, and Music in Your Pages</p>
-                  </li>
+                  </li> */}
                   <li className="active">
                     <p>&#8226; Basic SEO Setup and Google Analytics</p>
+                  </li>
+                  <li className="active">
+                    <p>&#8226; Includes Training and Support via Email and Phone</p>
                   </li>
                   <li className="active">
                     <p>&#8226; 1 Months of Initial Support and Guidance</p>
@@ -184,6 +190,9 @@ const Ecommerce = () => {
                   </li>
                   <li className="active">
                     <p>&#8226; Basic SEO Setup and Google Analytics</p>
+                  </li>
+                  <li className="active">
+                    <p>&#8226; Includes Training and Support via Email and Phone</p>
                   </li>
                   <li className="active">
                     <p>&#8226; 3 Months of Comprehensive Support and Guidance</p>
