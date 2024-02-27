@@ -12,8 +12,8 @@ const Graphics = () => {
                     </h3>
                 </div>
 
-                <div className="list w-full h-auto clear-both float-left">
-                    <ul className="ml-[-40px] ">
+                <div className="list w-full h-auto  float-left">
+                    <ul className=" ">
                         <li className="mb-[40px] pl-[40px] w-1/3 float-left">
                             <div className="list_inner w-full h-auto clear-both float-left relative border-solid border-[rgba(0,0,0,.1)] border px-[40px] pt-[27px] pb-[45px]">
                                 <div className="price w-full float-left">
@@ -121,9 +121,11 @@ const Graphics = () => {
                                 </div>
                             </div>
                         </li>
-                        {/* </ul> */}
-                        {/* <ul className="ml-[-40px] "> */}
-                        <li className="mb-[40px] pl-[40px] w-1/3 float-left">
+                    </ul>
+                </div>
+                <div className="list w-full h-auto  float-left">
+                    <ul className=" ">
+                    <li className="mb-[40px] pl-[40px] w-1/3 float-left">
                             <div className="list_inner w-full h-auto clear-both float-left relative border-solid border-[rgba(0,0,0,.1)] border px-[40px] pt-[27px] pb-[45px]">
                                 <div className="price w-full float-left">
                                     <h3 className="text-[40px] font-semibold">
@@ -195,9 +197,14 @@ const Graphics = () => {
                         </li>
                     </ul>
                 </div>
+
             </div>
         </div >
 
     );
 };
 export default Graphics;
+
+
+
+
