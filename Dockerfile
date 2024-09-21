@@ -1,15 +1,12 @@
-FROM node:21.7.3-alpine
+FROM node:16.17.0-alpine AS minicontainer
 
-WORKDIR /app
-
-COPY package*.json ./
-
-RUN npm install
+WORKDIR /todoapp
 
 COPY . .
 
+RUN npm install
 RUN npm run build
 
-EXPOSE 3000
 
-CMD ["npm", "run","dev", "start"]
+FROM nginx:stable-alpine
+COPY --from=minicontainer /todoapp/build/ /usr/share/nginx/html/
